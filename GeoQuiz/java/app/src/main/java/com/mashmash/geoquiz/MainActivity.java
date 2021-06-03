@@ -3,6 +3,7 @@ package com.mashmash.geoquiz;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -24,14 +25,16 @@ public class MainActivity extends AppCompatActivity {
         trueButton.setOnClickListener(v ->
                 Toast.makeText(
                         v.getContext(),
-                        "HEllo From Here!",
+                        R.string.correct_toast,
                         Toast.LENGTH_LONG).show());
 
         falseButton.setOnClickListener(v ->
                 Toast.makeText(
                         v.getContext(),
-                        "Hskjdhf!",
-                        Toast.LENGTH_LONG).show());
+                        R.string.incorrect_toast,
+                        Toast.LENGTH_LONG)
+                        //.setGravity(Gravity.TOP, 0, 0)
+                        .show());
     }
 
 }
