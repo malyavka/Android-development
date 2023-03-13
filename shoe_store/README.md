@@ -30,19 +30,19 @@ Open the starter project in Android Studio
 
    - Include email and password fields \/
    - Create buttons for creating a new login and logging in with an existing account \/
-   - Clicking either button should navigate to the Welcome Screen.
+   - Clicking either button should navigate to the Welcome Screen. \/
 
-6. Create a new Welcome screen destination that includes:
+6. Create a new Welcome screen destination that includes: \/
 
-   * A new layout
-   * At least 2 textviews
-   * A navigation button with actions to navigate to the instructions screen
+   * A new layout \/
+   * At least 2 textviews \/
+   * A navigation button with actions to navigate to the instructions screen \/
 
-7. Create a new Instruction destination that includes:
+7. Create a new Instruction destination that includes: \/
 
-   * A new layout
-   * At least 2 textviews
-   * A navigation button with actions to navigate to the shoe list screen
+   * A new layout \/
+   * At least 2 textviews \/
+   * A navigation button with actions to navigate to the shoe list screen \/
 
 8. Create a class that extends ViewModel
 

@@ -4,12 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.udacity.shoestore.databinding.InstructionsScreenLayoutBinding
+import androidx.navigation.findNavController
+import com.udacity.shoestore.R
+import com.udacity.shoestore.databinding.FragmentInstructionsScreenBinding
 
 class InstructionsFragment : Fragment() {
 
-    private lateinit var binding: InstructionsScreenLayoutBinding
+    private lateinit var binding: FragmentInstructionsScreenBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -17,8 +20,17 @@ class InstructionsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        binding = InstructionsScreenLayoutBinding.inflate(inflater)
-        //Inflate layout
+        binding = DataBindingUtil.inflate(
+            inflater,
+            R.layout.fragment_instructions_screen,
+            container,
+            false
+        )        //Inflate layout
+
+        binding.instructionsButton.setOnClickListener{
+            view?.findNavController()?.navigate(R.id.action_instructionsFragment_to_shoeListFragment)
+        }
+
         return binding.root
     }
 }

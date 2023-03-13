@@ -9,8 +9,23 @@
     <string name="action_sign_up">Sign up</string>
     <string name="welcome">"Welcome!"</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="instructions_one">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis dolor enim, eu dapibus lacus accumsan in. Ut faucibus pharetra pulvinar. Nullam gravida risus vitae purus finibus varius. Donec vel enim nibh. Vestibulum dapibus turpis ac porttitor feugiat. Ut eget magna nisl. Donec sed metus et magna posuere porttitor. Nunc eu sapien nec turpis accumsan fringilla. Morbi facilisis sit amet sem vitae commodo. Sed dapibus purus vitae sapien pretium, quis vehicula tellus consequat. Suspendisse molestie felis ut semper blandit.  "</string>
-    <string name="instructions_two">"Duis tellus urna, sodales vel turpis at, convallis porta sem. Sed lacinia, ante quis finibus pellentesque, tortor purus luctus purus, a interdum lacus ipsum sed diam. Ut vestibulum congue congue. Nam sit amet dolor ipsum. Integer lacinia est in porta egestas. Mauris ac leo ut ex ultricies suscipit. Curabitur gravida maximus ex, in tincidunt nulla luctus eget. Sed eget purus ante. Suspendisse vel eros risus. Nam in suscipit sem. Nam ac dolor lobortis, fringilla ex ac, elementum urna.  "</string>
+    <string name="instructions_one">"This app shows shoes."</string>
+    <string name="instructions_two">"On the next screen, you can click on Add button and add shoes to the inventory!"</string>
+    <string name="welcome_one">"Welcome to Shoe Store.  "</string>
+    <string name="welcome_two">"We are glad to see you here!"</string>
     <string name="instructions_button">Start now!</string>
     <string name="welcome_button">To instructions</string>
+    <string name="change_description">Change description</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="change_size">Change size</string>
+    <string name="size">SIZE</string>
+    <string name="change_company">Change company</string>
+    <string name="company">COMPANY</string>
+    <string name="change_name">Change name</string>
+    <string name="name">NAME</string>
+    <string name="shoe">shoe_desc</string>
+    <string name="switch_button">Save shoe</string>
+    <string name="logout_in_menu">Logout</string>
+    <string name="empty_fields_warning">No values were provided</string>
+    <string name="cancel_button">Cancel</string>
 </resources>
