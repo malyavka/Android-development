@@ -32,15 +32,6 @@ class SleepQualityViewModel(
     private val sleepNightKey: Long = 0L,
     val database: SleepDatabaseDao) : ViewModel() {
 
-
-    /**
-     */
-
-    /**
-     *
-     *
-     */
-
     /**
      * Variable that tells the fragment whether it should navigate to [SleepTrackerFragment].
      *
